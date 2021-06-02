@@ -42,7 +42,7 @@ public class ClientISO {
             // klo panjang msg dari MTI sampai END OF MSG sama dengan nilai
             // header maka lanjutkan ke method processingMsg();
             if (lengthOfMsg == sb.toString().length()) {
-                System.out.println("Rec. Msg ["+sb.toString()+"] len ["+sb.toString().length()+"]");
+                System.out.println("Resp. Msg ["+sb.toString()+"] len ["+sb.toString().length()+"]");
             }
         }
  
